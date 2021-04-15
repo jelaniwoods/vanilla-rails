@@ -1,5 +1,5 @@
-image: jelaniwoods/appdev2021-vanilla-rails:2.7.1tmp2
-
+image:
+  - file: .gitpod.Dockerfile
 tasks:
   - init: bin/setup
 ports:
