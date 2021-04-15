@@ -86,4 +86,6 @@ RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/so
 
 # RUN sudo apt-get update && sudo apt-get install -y nodejs yarn postgresql-client
 RUN sudo apt-get update && sudo apt-get install -y yarn
+
+RUN /bin/bash -l -c "echo 'hi'"
 USER gitpod
